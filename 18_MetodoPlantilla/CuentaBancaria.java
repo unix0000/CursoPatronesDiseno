@@ -30,7 +30,7 @@ public abstract class CuentaBancaria{
 
 	public abstract void saludar();
 
-	public void procesar(String c, int i, int t){
+	public final void procesar(String c, int i, int t){
 		saludar();
 		setCuenta(c);
 		switch(t){
